@@ -1,0 +1,151 @@
+.py_100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.py-100 {
+    padding: 100px 0;
+}
+
+header h4 {
+    font-size: 38px;
+}
+
+header h4 span {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.searchform {
+    height: 54px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+}
+
+.ftco-navbar-light {
+    z-index: 3;
+    padding: 0;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #fd5f00;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fd5f00;
+}
+
+.banner-bg {
+    background: linear-gradient(45deg, rgba(12, 16, 39, 0.5) 0%, rgba(253, 97, 0, 0.5) 100%), url(../img/banner-1.webp)center center/cover;
+    width: 100%;
+}
+.banner-bg-1 {
+    background: linear-gradient(45deg, rgba(12, 16, 39, 0.5) 0%, rgba(253, 97, 0, 0.5) 100%), url(../img/banner-1.webp)top center/cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.banner-bg-2 {
+    background: linear-gradient(45deg, rgba(12, 16, 39, 0.5) 0%, rgba(253, 97, 0, 0.5) 100%), url(../img/banner-2.webp)top center/cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.bg-light {
+    background-color: #fafafa;
+    width: 100%;
+}
+
+.bg-black {
+    background-color: #232323;
+    width: 100%;
+}
+
+.slider-text {
+    height: 90vh;
+}
+
+.slider-text h2 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #fff;
+}
+
+.services-icon {
+    font-size: 50px;
+}
+
+.university-bg {
+    background: linear-gradient(45deg, rgba(12, 16, 39, 0.85) 0%, rgba(253, 97, 0, 0.85) 100%), url(../img/about-bg.webp)top center/cover;
+    width: 100%;
+}
+
+.contact-bg {
+    background: linear-gradient(45deg, rgba(12, 16, 39, 0.85) 0%, rgba(253, 97, 0, 0.85) 100%), url(../img/contact-bg.webp)top center/cover;
+    width: 100%;
+}
+
+.contact-bg .form-control {
+    border: transparent !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+    height: 58px !important;
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 16px;
+}
+
+.contact-bg  input::placeholder,
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.contact-bg .form-group {
+    width: 100%;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+/* 
+.bg-black input::placeholder {
+    color: rgba(0, 0, 0, 0.9) !important;
+} */
+
+
+@media(max-width:991px) {
+    .slider-text h2 {
+        font-size: 38px;
+    }
+
+    .py_100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+@media(max-width:767px) {
+    .slider-text h2 {
+        font-size: 38px;
+    }
+
+    .py_100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width:576px) {
+    .slider-text h2 {
+        font-size: 32px;
+    }
+
+    .py_100 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
